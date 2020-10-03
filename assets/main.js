@@ -6,7 +6,7 @@ const minTemp = document.getElementById('min')
 const weather = document.getElementById('weather')
 const erro = document.getElementById('erro')
 
-const URL = 'http://api.openweathermap.org/data/2.5/'
+const URL = 'https://api.openweathermap.org/data/2.5/'
 const KEY = '7d738284923b0d94731dbf571f735771'
 
 searchBox.addEventListener('keypress', setKeyboard)
