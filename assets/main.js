@@ -4,7 +4,6 @@ const temp = document.getElementById('temp')
 const maxTemp = document.getElementById('max')
 const minTemp = document.getElementById('min')
 const weather = document.getElementById('weather')
-const erro = document.getElementById('erro')
 
 const URL = 'https://api.openweathermap.org/data/2.5/'
 const KEY = '7d738284923b0d94731dbf571f735771'
