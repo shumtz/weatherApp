@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../images/sun.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-shadow: 2px 2px #000;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  /* establish flex container */
+  flex-direction: column;
+  /* make main axis vertical */
+  justify-content: center;
+  /* center items vertically, in this case */
+  align-items: center;
+  /* center items horizontally, in this case */
+  /* margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+
+.header {
+  color: #fff;
+  font-size: 25px;
+}
+
+.header h3 {
+  font-size: 30px;
+}
+
+.search input {
+  border: none;
+  border-radius: 5px;
+  width: 90vh;
+  height: 07vh;
+  font-size: 17px;
+  box-shadow: 4px 4px #000;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.body {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.body p {
+  font-size: 30px;
+  text-shadow: 2px 2px #000;
+}
+
+.body span {
+  padding: 15px;
+  font-size: 25px;
+  text-shadow: 2px 2px #000;
+}
+
+.footer p {
+  font-size: 20px;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+
+  html,
+  body {
+    background-repeat: no-repeat;
+    background-size: 2500px;
+  }
+
+  .search input {
+    width: 50vh;
+  }
+}
+
+@media (max-width: 411px) {
+
+  html,
+  body {
+    background-repeat: no-repeat;
+    background-size: 2500px;
+  }
+
+  .search input {
+    width: 45vh;
+  }
+}
+
+@media (max-width: 380px) {
+
+  html,
+  body {
+    background-repeat: no-repeat;
+    background-size: 2500px;
+  }
+
+  .search input {
+    width: 40vh;
+  }
+}
